@@ -5,11 +5,13 @@
  -moz-box-sizing: border-box;
  box-sizing: border-box;
  font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
 }
 body {
- background-image: url("../foto/back.jpg");
+ background-image: url("../foto/night.jpg");
  background-repeat: no-repeat;
  background-size: 100%;
+ background-attachment: fixed;
  margin: 100px auto;
  width: 900px;
 }
@@ -21,7 +23,7 @@ header {
  width: 150px;
  height: 150px;
  float: left;
- margin-left: 30px;
+ margin-left: 50px;
 }
 h1 {
  position: relative;
@@ -40,12 +42,13 @@ aside {
  float: left;
  text-align: right;
  margin-left: 50px;
+ margin-top: 30px;
 }
 ul li .jakir {
  text-decoration: none;
 }
 .jakir:hover {
- color: grey;
+ color: blue;
  transition: .0.8s;
  cursor: pointer;
  padding: 10px;
@@ -71,16 +74,20 @@ td {
  margin-left: 200px;
  margin: 0 auto;
  border-collapse: collapse;
- box-shadow: 4px -4px 50px;
+ box-shadow: 6px -6px 30px;
+ border-top: 3px solid black;
+ border-bottom: 3px solid black;
+ border-left: 3px solid black;
 }
 .sir {
  background-color: lightgrey;
+ border-radius: 15px;
 }
 .black {
  color: black;
 }
 nav {
- margin-top: 20px;
+ margin-top: 30px;
 }
 input, textarea {
  border-radius: 10px;
