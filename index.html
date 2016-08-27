@@ -7,51 +7,73 @@
     </head>
     <body>
         <header>
-            <img id="tutylka" src="foto/kolo.jpg" alt="title">
             <h1>Стегній Сергій</h1>
+            <div class="mova">
+                <ul>
+                    <li><a href="#">UA</a></li>
+                    <li><a href="#">ENG</a></li>
+                </ul>
+            </div>        
             <audio src="sound/sound.mp3" controls></audio>
         </header>
         <aside>
-            <a href="https://www.facebook.com/profile.php?id=100010857879873"><img style="width: 15px; height: 15px;" 
-            src="sprite/facebook.svg" alt="facebook"></a>
-            <a href="https://vk.com/id39957133"><img style="width: 15px; height: 15px;" src="foto/vk.png" alt="vk.png"></a>
-            <img style="width: 15px; height: 15px;" src="foto/skype.png" alt="skype"><br>
-            <nav>
+            <section>
                 <ul>
                     <li><a class="jakir" href="#">Досвід роботи</a></li>
                     <li><a class="jakir" href="#">Освіта</a></li>
                     <li><a class="jakir" href="#">Про себе</a></li>
                     <li><a class="jakir" href="#">Напишіть мені</a></li>
                 </ul>
-            </nav>    
-        </aside>
-        <!--               Головна                      -->
-        <article>
-                <table class="table">
-                    <tr class="sir">
-                        <td class="black">Ім'я</td><td class="black">Сергій</td>
-                    </tr>    
-                    <tr>
-                        <td>Дата народження</td><td>7 листопада 1995р.</td>
-                    </tr>
-                    <tr class="sir">
-                        <td class="black">Адреса проживання</td><td class="black">Кирила і Мефодія 28/10</td>
-                    </tr>
-                    <tr>
-                        <td>Телефон</td><td>063-991-98-09</td>
-                    </tr>
-                    <tr class="sir">
-                        <td class="black">Емейл</td><td class="black">klamozxc@gmail.com</td>
-                    </tr>  
-                </table>    
-
-        </article>    
-        <!--              Досвіт роботи                  -->
-        <br><br><br><br><br><br>
-        
-        <footer>
+            </section>    
             <section>
-                <h2>Досвіт роботи</h2>    
+                <ol>
+                    <li><a href="https://www.facebook.com/profile.php?id=100010857879873"><img style="width: 30px; height: 30px;" src="sprite/facebook.svg" alt="facebook"></a></li>
+                    <li><a href="https://vk.com/id39957133"><img style="width: 30px; height: 30px;" src="foto/vk.png" alt="vk.png"></a></li>
+                    <li><a href=""><img style="width: 30px; height: 30px;" src="foto/skype.png" alt="skype"></a></li>
+                </ol>   
+            </section>
+        </aside>
+        <article>
+            <img id="tutylka" src="foto/kolo.jpg" alt="title">
+            <table class="table">
+                <tr class="sir">
+                    <td class="black">Ім'я</td><td class="black">Сергій</td>
+                </tr>    
+                <tr>
+                    <td>Дата народження</td><td>7 листопада 1995р.</td>
+                </tr>
+                <tr class="sir">
+                    <td class="black">Адреса проживання</td><td class="black">Кирила і Мефодія 28/10</td>
+                </tr>
+                <tr>
+                    <td>Телефон</td><td>063-991-98-09</td>
+                </tr>
+                <tr class="sir">
+                    <td class="black">Емейл</td><td class="black">klamozxc@gmail.com</td>
+                </tr>  
+            </table>    
+        </article>    
+
+        
+         <footer>
+             
+             <h2>Напишіть мені повідомлення</h2>
+             
+             <section class="message">
+                <form action="https://formspree.io/klamozxc@gmail.com" method="POST">
+                    <label for="name"><span>Ім'я</span></label><br>
+                    <input class="input" type="text" name="name" id="name" placeholder="...."><br>
+                    <label for="surname"><span>Прізвище</span></label><br>
+                    <input class="input" type="text" name="surname" id="surname" placeholder="...."><br>
+                    <label for="text"><span>Повідомлення</span></label><br>
+                    <textarea name="text" id="text" placeholder="Написати"></textarea><br><br>
+                    <input class="send buttom" type="submit" name="send" value="Надіслати"><br>
+                </form>    
+            </section>
+            
+            <h2>Досвіт роботи</h2>
+            
+            <section id="work">
                 <img src="foto/diana-vel.png" alt="diana-bike">
                 <img src="foto/diana-dance.png" alt="diana-danve">
                 <img src="foto/buka.png" alt="bukovel"><br>
@@ -67,9 +89,10 @@
                 Radisson Blu Resort
                 Посада:бармен
             </section>
-        <!--             Освіта                      -->
-            <section>
-                <h2>Освіта</h2>
+            
+            <h2>Освіта</h2>
+            
+            <section id="Education">
                 <img src="foto/picture.png" alt="picture"><br>
                 Львівська Лінгвістична Гімназія(ЛЛГ)
                 З поглибленим вивченням англійської мови<br>
@@ -88,22 +111,8 @@
                 <h2>Про себе</h2>
                 
             </section>
-            <section>
-                <form action="https://formspree.io/klamozxc@gmail.com" method="POST">
-                    <label for="name">Ім'я</label><br>
-                    <input type="text" name="name" id="name"><br>
-                    <label for="surname">Прізвище</label><br>
-                    <input type="text" name="surname" id="surname"><br>
-                    <label for="text">Повідомлення</label><br>
-                    <textarea name="text" id="text"></textarea><br>
-                    <input type="submit" name="send" value="Надіслати"><br>
-                </form>    
-            </section>
         </footer>
-        
-            
-        
-        
+       
         
     </body>    
 </html>
