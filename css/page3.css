@@ -21,19 +21,19 @@ h2 {
 }
 nav {
  position: fixed;
- top: 40px;
- right: 20px;
+ top: 20px;
+ left: 20px;
+ padding-top: 20px;
 }
 ul {
  list-style-type: none;
  color: white;
- width: 175px;
- text-align: center;
 }
 ul li {
  font-size: large;
- padding: 20px 0;
- text-shadow: 3px 3px 6px black, 0 0 1em #4b59a8;
+ padding-right: 30px;
+ text-shadow: 1px 1px 3px grey, 0 0 1em #4b59a8;
+ display: inline-block;
 }
 ul li .jakir {
  text-decoration: none;
@@ -43,7 +43,7 @@ ul li .jakir {
  transition: .3s;
 }
 .jakir:hover {
- color: blue;
+ color: lightblue;
  cursor: pointer;
 }
 ol {
@@ -61,4 +61,7 @@ ol li a:hover {
  width: 100px;
  height: 100px;
  text-shadow: 3px 3px 6px black, 0 0 1em #4b59a8;
+}
+header {
+ height: 100px;
 }

@@ -32,34 +32,33 @@ h1 {
  font-family: Italic;
  font-size: 4em;
  clear: both;
+ 
 }
 h2 {
  font-family: Italic;
  font-size: 2em;
 }
 audio {
- clear: both;
+ /*clear: both;*/
  position: fixed;
  bottom: 0;
- left: 0;
+ right: 0;
 }
 nav {
  position: fixed;
  top: 20px;
  left: 20px;
- float: left;
- /*right: 20px;*/
+ padding-top: 20px;
 }
 ul {
  list-style-type: none;
  color: white;
- /*width: 175px;*/
- /*text-align: center;*/
 }
 ul li {
  font-size: large;
- padding: 20px 0;
+ padding-right: 30px;
  text-shadow: 3px 3px 6px black, 0 0 1em #4b59a8;
+ display: inline-block;
 }
 ul li .jakir {
  text-decoration: none;
@@ -80,7 +79,7 @@ td {
 }
 .table {
  width: 60%;
- margin: 0 auto;
+ margin: 40px auto 0;
  border-collapse: collapse;
  box-shadow: 6px -6px 30px;
  border-top: 3px solid black;
@@ -95,7 +94,7 @@ td {
 }
 article {
  margin: 80px 10% 0; 
- height: 200px;
+ height: 300px;
 }
 footer {
  clear: both;
@@ -145,4 +144,7 @@ span {
 }
 form {
  margin-top: 50px;
+}
+header {
+ height: 100px;
 }
