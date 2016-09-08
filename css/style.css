@@ -125,11 +125,15 @@ form {
 }
 header {
  height: 70px;
+ background-image: url("../foto/nav_back.jpg");
 }
 .sprite {
  width: 30px;
  height: 30px;
- 
+}
+li .sprite:hover {
+ width: 35px;
+ height: 35px;
 }
 footer {
  position: relative;
