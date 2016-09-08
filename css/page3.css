@@ -13,26 +13,27 @@ body {
  background-repeat: no-repeat;
  background-size: 100% 100%;
  background-attachment: fixed;
+ max-width: 1500px;
+ margin: 0 auto;
 }
 h2 {
  font-family: Italic;
  font-size: 2em;
  text-align: center;
-}
-nav {
- position: fixed;
- top: 20px;
- left: 20px;
- padding-top: 20px;
+ padding-top: 80px;
 }
 ul {
  list-style-type: none;
  color: white;
+ padding-top: 40px;
+ padding-left: 20px;
+ text-align: left;
+ float: left;
 }
 ul li {
  font-size: large;
  padding-right: 30px;
- text-shadow: 1px 1px 3px grey, 0 0 1em #4b59a8;
+ text-shadow: 3px 3px 6px black, 0 0 1em #4b59a8;
  display: inline-block;
 }
 ul li .jakir {
@@ -48,8 +49,11 @@ ul li .jakir {
 }
 ol {
  list-style-type: none;
+ float: right;
 }
 ol li {
+ padding-top: 30px;
+ padding-right: 20px;
  display: inline-block;
 }
 ol li a {
@@ -62,6 +66,17 @@ ol li a:hover {
  height: 100px;
  text-shadow: 3px 3px 6px black, 0 0 1em #4b59a8;
 }
-header {
- height: 100px;
+.sprite {
+ width: 30px;
+ height: 30px;
 }
+header {
+ height: 70px;
+}
+.foto {
+ height: 300px;
+ width: 250px;
+ margin-left: 30px;
+ border: 3px solid white;
+}
+ 

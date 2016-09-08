@@ -14,6 +14,9 @@ body {
  background-size: 100% 100%;
  background-attachment: fixed;
  text-align: center;
+ max-width: 1500px;
+ margin: 0 auto;
+ height: 100%;
 }
 #tutylka {
  width: 150px;
@@ -38,21 +41,13 @@ h2 {
  font-family: Italic;
  font-size: 2em;
 }
-audio {
- /*clear: both;*/
- position: fixed;
- bottom: 0;
- right: 0;
-}
-nav {
- position: fixed;
- top: 20px;
- left: 20px;
- padding-top: 20px;
-}
 ul {
  list-style-type: none;
  color: white;
+ padding-top: 40px;
+ padding-left: 20px;
+ text-align: left;
+ float: left;
 }
 ul li {
  font-size: large;
@@ -82,7 +77,6 @@ td {
  margin: 40px auto 0;
  border-collapse: collapse;
  box-shadow: 6px -6px 30px;
- border-top: 3px solid black;
  border-bottom: 3px solid black;
 }
 .sir {
@@ -101,11 +95,13 @@ footer {
  text-align: center;
  margin-top: 40px;
 }
-
 ol {
  list-style-type: none;
+ float: right;
 }
 ol li {
+ padding-top: 30px;
+ padding-right: 20px;
  display: inline-block;
 }
 ol li a {
@@ -121,24 +117,6 @@ ol li a:hover {
 div {
 float: left;
 }
-.mova ul {
- list-style-type: none;
-}
-.mova ul li {
- display: inline-block;
- /*padding-right: 50px;*/
-}
-.mova ul li a {
- text-decoration: none;
- color: grey;
- -webkit-transition: .3s;
- -o-transition: .3s;
- transition: .3s;
-}
-.mova ul li a:hover {
- color: lightblue;
- cursor: pointer;
-}
 span {
  color: black;
 }
@@ -146,5 +124,18 @@ form {
  margin-top: 50px;
 }
 header {
- height: 100px;
+ height: 70px;
+}
+.sprite {
+ width: 30px;
+ height: 30px;
+}
+footer {
+ position: relative;
+ height: 150px;
+}
+audio {
+ position: absolute;
+ bottom: 10px;
+ right: 10px;
 }

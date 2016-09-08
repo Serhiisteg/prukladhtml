@@ -1,33 +1,47 @@
 <!doctype html>
-<html lang="en, uk">
-    <head>
-        <meta charset="UTF-8">
-        <title>Write</title>
-        <link rel="stylesheet" href="css/page4.css">
-    </head>
-    <body>
-        <header>
-                <nav>
-                    <ul>
-                        <li><a class="jakir" href="index.html">Головна</a></li>
-                        <li><a class="jakir" href="page2.html">Досвід роботи</a></li>
-                        <li><a class="jakir" href="page3.html">Про себе</a></li>
-                        <li><a class="jakir" href="page4.html">Напишіть мені</a></li>
-                    </ul>
-                </nav>
-        </header>
-        <hr>
-        <h2>Напишіть мені повідомлення</h2>
-        <section class="message">
-            <form action="https://formspree.io/klamozxc@gmail.com" method="POST">
-                <label for="name"><span>Ім'я</span></label><br>
-                <input class="input" type="text" name="name" id="name" placeholder="...."><br>
-                <label for="surname"><span>Прізвище</span></label><br>
-                <input class="input" type="text" name="surname" id="surname" placeholder="...."><br>
-                <label for="text"><span>Повідомлення</span></label><br>
-                <textarea name="text" id="text" placeholder="Написати"></textarea><br><br>
-                <input class="send buttom" type="submit" name="send" value="Надіслати"><br>
-            </form> 
-        </section>    
-    </body>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write</title>
+    <link rel="stylesheet" href="css/anim.css">
+    <link rel="stylesheet" href="css/page4.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a class="jakir" href="index.html">Головна</a></li>
+                <li><a class="jakir" href="page2.html">Досвід роботи</a></li>
+                <li><a class="jakir" href="page3.html">Про себе</a></li>
+                <li><a class="jakir" href="page4.html">Напишіть мені</a></li>
+            </ul>
+            <ol>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100010857879873"><img class="sprite" src="sprite/facebook.svg"></a>
+                </li>
+                <li>
+                    <a href="https://vk.com/id39957133"><img class="sprite" src="foto/vk.png"></a>
+                </li>
+            </ol>
+        </nav>
+    </header>
+    <hr>
+
+    <section class="message">
+        <h2 class="animated fadeInDown">Напишіть мені повідомлення</h2>
+        <form action="https://formspree.io/klamozxc@gmail.com" method="POST">
+            <label for="name"><span>Ім'я</span></label><br>
+            <input class="input" type="text" name="name" id="name" placeholder="...."><br>
+            <label for="surname"><span>Прізвище</span></label><br>
+            <input class="input" type="text" name="surname" id="surname" placeholder="...."><br>
+            <label for="text"><span>Повідомлення</span></label><br>
+            <textarea name="text" id="text" placeholder="Написати"></textarea><br><br>
+            <input class="send buttom" type="submit" name="send" value="Надіслати"><br>
+        </form>
+    </section>
+</body>
+
 </html>
