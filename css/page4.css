@@ -99,3 +99,11 @@ ol li a:hover {
 header {
  height: 70px;
 }
+#copy {
+ font-size: 18px;
+ text-align: right;
+}
+footer {
+ padding-top: 150px;
+ padding-right: 30px;
+}
